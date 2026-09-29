@@ -6,6 +6,14 @@ A comprehensive cryptocurrency trading system with real-time data collection, ad
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)](https://tauri.app/)
 
+## ⚠️ Security Notice
+
+This repository's name and code have been reported as cloned into a scam operation that distributes malware through fake job-offer phishing emails. Victims are sent a "coding task" that is a modified copy of this project with malicious code injected (a remote-access trojan triggered on import, plus a malicious VS Code auto-run configuration that executes as soon as the workspace is opened).
+
+- **The only official repository for this project is [github.com/Erio-Harrison/rust-trade](https://github.com/Erio-Harrison/rust-trade).** This project has never been distributed as a take-home interview task.
+- If a "hiring task" or coding challenge arrives as a clone/download of this project from any other GitHub account or organization, treat it as malicious — do not open it in an editor or run it, and do not enable any workspace/auto-run configuration it suggests.
+- This project's own code does not include any RAT, obfuscated payload, or auto-executing VS Code task. If a copy of it does, that copy has been tampered with.
+
 ## 🎯 Overview
 
 Rust Trade combines high-performance market data processing with sophisticated backtesting tools, delivering a complete solution for cryptocurrency quantitative trading. The system features real-time data collection from exchanges, a powerful backtesting engine with multiple strategies, and an intuitive desktop interface.
